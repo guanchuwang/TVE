@@ -36,17 +36,17 @@ python3 heatmap_demo.py
 
 The heatmap of local explanation will be
 <div align=center>
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-1-7-784.png">
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-1-7-784.png.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-1-7-784.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-1-7-784.png.png">
 <br>
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-0-9-416.png">
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-0-9-416.png.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-0-9-416.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-0-9-416.png.png">
 <br>
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-1-0-541.png">
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-1-0-541.png.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-1-0-541.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-1-0-541.png.png">
 <br>
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-1-30-542.png">
-<img width="100" height="100" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-1-30-542.png.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/image/image-1-30-542.png">
+<img width="150" height="150" src="https://anonymous.4open.science/r/LETA-D997/output/explanation/heatmap-image-1-30-542.png.png">
 </div>
 
 
