@@ -62,7 +62,7 @@ explainer_config = GenericExplainerConfig.from_pretrained(explainer_checkpoint_d
 backbone_config = ViTMAEConfig.from_dict(explainer_config.backbone_config)
 backbone_pos = ViTMAEForPreTraining.from_pretrained("facebook/vit-mae-base", config=backbone_config)
 backbone_neg = ViTMAEForPreTraining.from_pretrained("facebook/vit-mae-base", config=backbone_config)
-generic_explainer = GenericExplainer.from_pretrained(explainer_checkpoint_dir, 
+generic_explainer = GenericExplainer.from_pretrained(explainer_checkpoint_dir,
                                                      config=explainer_config,
                                                      backbone_pos=backbone_pos,
                                                      backbone_neg=backbone_neg,
