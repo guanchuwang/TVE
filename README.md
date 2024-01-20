@@ -27,7 +27,7 @@ datasets
 accelerate
 ````
 
-### Visualization of Pre-trained Explainer
+### Leverage our Pre-trained Explainer
 
 Run our pre-trained explainer to generate heatmaps for explaining ViT classification models
 ````angular2html
