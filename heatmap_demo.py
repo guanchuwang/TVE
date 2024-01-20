@@ -13,7 +13,7 @@ import os, json
 from utils import explanation_imshow
 import ipdb
 
-explainer_checkpoint_dir = os.environ.get('EXPLAINER_DIR')
+explainer_checkpoint_dir = "Anonymous-researcher/leta"
 
 ## Target Model
 target_encoder_config_name = "google/vit-base-patch16-224"
