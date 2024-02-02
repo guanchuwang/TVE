@@ -1,20 +1,20 @@
-## LETA: Learning Transferable Attribution for Generic Vision Explainer
+## TVE: Learning Meta-attribution for Transferable Vision Explainer
 
 ### Research Motivation
 
 Explainable machine learning significantly improves the transparency of deep neural networks (DNN).
 However, existing work is constrained to explaining the behavior of individual model predictions, and lacks the ability to transfer the explanation across various models and tasks.
 This limitation results in explaining various tasks being time- and resource-consuming.
-To address this problem, we develop a pre-trained, DNN-based, generic explainer, named LETA, on large-scale image datasets, and leverage its transferability to explain various vision models for downstream tasks.
+To address this problem, we develop a DNN-based transferable vision explainer, named TVE, pre-trained on large-scale image datasets, and leverage its transferability to explain various vision models for downstream tasks.
 
 
 ### Research Challenge
 
-The development of generic explainers introduces two non-trivial two challenges:
+The development of transferable explainers introduces two non-trivial two challenges:
 
-**CH1:** Enabling the explainer to effectively transfer across various downstream tasks without the task-specific knowledge for pre-training poses a significant challenge.
+**CH1:** Without task-specific exposure during the pre-training, how to ensure the universal effectiveness of explainer for various downstream tasks? 
 
-**CH2:** Achieving the adaptation of the explainer to a particular downstream task without necessitating fine-tuning on the task-specific data introduces another challenge.
+**CH2:** How to adapt the explainer to a specific  task without fine-tuning on the task-specific data?
 
 
 ### Dependency
