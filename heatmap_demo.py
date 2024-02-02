@@ -57,7 +57,6 @@ config_kwargs = {
         # "do_normalize": True,
     }
 image_processor = ViTImageProcessor.from_pretrained("facebook/vit-mae-base", **config_kwargs)
-checkpoint_dir = "../../Generic_mae_explainer/output/Explainer-vit-base_layer_17_radius_2-pos-neg"
 explainer_config = GenericExplainerConfig.from_pretrained(explainer_checkpoint_dir)
 backbone_config = ViTMAEConfig.from_dict(explainer_config.backbone_config)
 backbone_pos = ViTMAEForPreTraining.from_pretrained("facebook/vit-mae-base", config=backbone_config)
